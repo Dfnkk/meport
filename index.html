@@ -183,7 +183,7 @@
         <a href=""></a>
         <h3 style="text-align: center">Get In Touch</h3>
 
-        <form id="contact-form">
+        <form id="contact-form" action="POST" data-netlify="true">
           <a name="contact"></a>
 
           <label>Name</label>
@@ -197,6 +197,7 @@
 
           <label>Message</label>
           <textarea class="input-field" name="message" id="name"></textarea>
+	  <div data-netlify-recaptcha="true"></div>
 
           <button id="submit-btn">Send</button>
         </form>
