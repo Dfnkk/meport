@@ -1,6 +1,7 @@
 const buttonForm = document.getElementById('submit-btn');
 
-gsap.from('.button', {opacity: 0, duration: 1, y: -50, ease: 'elastic(1, 0.7)'});
+gsap.from('.intro-wrapper', {opacity: 0, duration: 1, y: -50, ease: 'elastic(1, 0.7)'});
+gsap.from('.about-wrapper', {opacity: 0, duration: 2, y: -50, ease: 'elastic(1, 0.7)'});
 
 let progress = document.getElementById('progressbar');
 let totalHeight = document.body.scrollHeight - window.innerHeight;
